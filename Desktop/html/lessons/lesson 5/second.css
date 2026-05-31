@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-weight: bold;
+    margin: 30px;
+}
+span {
+    border-bottom: 3px solid rgb(0, 0, 161);
+}
+.first-block {
+    display: flex;
+}
+.google {
+    border: 2px solid gray;
+    width: 30%;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 10px;
+    display: flex;
+}
+.google p {
+    color: gray;
+    padding: 10px;
+}
+h2 {
+    font-size: 40px;
+    float: right;
+    margin-left: 100px;
+    padding: 10px;
+}

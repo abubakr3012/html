@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+}
+.header {
+    margin: 20px;
+}
+.header span {
+    background-color: #000;
+    color: #fff;
+    padding: 2px 3px;
+    font-size: 60px;
+}
+.all {
+    display: flex;
+    font-family: "Raleway", sans-serif;
+    gap: 20px;
+}
+.box1  {
+    width: 30%;
+    height: 420px;
+    margin-left: 20px;
+}
+.box1 h2  {
+    background-color: red;
+    color: #fff;
+    padding: 20px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.box1  h4{
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+ .hoo {
+    color: #ff0000;
+    margin: 20px;
+    font-size: 30px;
+}
+.price {
+    margin-left: 20px;
+    text-decoration: line-through;
+    font-size: 26px;
+}
+.box1 .new {
+    font-size: 26px;
+    background-color: yellow;
+    padding: 5px 3px ;    
+}
+.box1 p {
+    font-size: 26px;
+    margin: 20px;
+}
+.box1 .contact {
+    background-color: #ff0000;
+    color: gainsboro;
+    padding: 1px;
+}
+
+.box2  {
+    width: 30%;
+    height: 420px;
+    margin-left: 20px;
+}
+.box2 h2  {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 20px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.box2  h4{
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.box2 .hoo {
+    color: #2196F3;
+    margin: 20px;
+    font-size: 30px;
+}
+.price {
+    margin-left: 20px;
+    text-decoration: line-through;
+    font-size: 26px;
+}
+.box2 .new {
+    font-size: 26px;
+    background-color: yellow;
+    padding: 5px 3px ;    
+}
+.box2 p {
+    font-size: 26px;
+    margin: 20px;
+}
+.box2 .contact {
+    background-color: #2196F3;
+    color: gainsboro;
+    padding: 1px;
+}
+
+
+.box3  {
+    width: 30%;
+    height: 410px;
+    margin-left: 20px;
+    background-color: #ffff00;
+}
+.box3 h2  {
+    background-color: red;
+    color: #fff;
+    padding: 20px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.box3  h4{
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.box3 .hoo {
+    color: #ff0000;
+    margin: 20px;
+    font-size: 30px;
+}
+.price {
+    margin-left: 20px;
+    text-decoration: line-through;
+    font-size: 26px;
+}
+.box3 .new {
+    font-size: 26px;
+    background-color: yellow;
+    padding: 5px 3px ;   
+    margin-left: 20px; 
+}
+.box3 p {
+    font-size: 26px;
+    margin: 20px;
+}
+.box3 .contact {
+    background-color: #ff0000;
+    color: gainsboro;
+    padding: 1px;
+}
+
+
+.all2 {
+    display: flex;
+    font-family: "Raleway", sans-serif;
+    gap: 20px;
+}
+
+.box4  {
+    width: 30%;
+    height: 420px;
+    margin-left: 20px;
+}
+.box4 h2  {
+    background-color: green;
+    color: #fff;
+    padding: 20px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.box4  h4{
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+ .box4 .hoo {
+    color: #ff0000;
+    margin: 20px;
+    font-size: 30px;
+}
+.price {
+    margin-left: 20px;
+    text-decoration: line-through;
+    font-size: 26px;
+}
+.box4 .new {
+    font-size: 26px;
+    color: #fff;
+    background-color: #ff0000;
+    border-radius: 30px;
+    padding: 5px 10px;    
+}
+.box4 p {
+    font-size: 26px;
+    margin: 20px;
+}
+.box4 .contact {
+    background-color: green;
+    color: gainsboro;
+    padding: 1px;
+}
+
+.box5  {
+    width: 30%;
+    height: 410px;
+    margin-left: 20px;
+    background-color: #ffff00;
+}
+.box5 h2  {
+    background-color: yellow;
+    padding: 20px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.box5  h4{
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.box5 .hoo {
+    color: #ff0000;
+    margin: 20px;
+    font-size: 30px;
+}
+.price {
+    margin-left: 20px;
+    text-decoration: line-through;
+    font-size: 26px;
+}
+.box5 .new {
+    font-size: 26px;
+    background-color: yellow;
+    padding: 5px 3px ;  
+    margin-left: 20px;  
+}
+.box5 p {
+    font-size: 26px;
+    margin: 20px;
+}
+.box5 .contact {
+    background-color: #ffff00;
+    padding: 1px;
+}
+
+
+.box6  {
+    width: 30%;
+    height: 410px;
+    margin-left: 20px;
+    background-color: #ff0000;
+    color: #fff;
+}
+.box6 h2  {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.box6  h4{
+    font-size: 24px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.box6 .hoo {
+    color: #fff;
+    margin: 20px;
+    font-size: 30px;
+}
+.price {
+    margin-left: 20px;
+    text-decoration: line-through;
+    font-size: 26px;
+}
+.box6 .new {
+    font-size: 26px;
+    margin-left: 20px;
+    padding: 5px 3px ;    
+}
+.box6 p {
+    font-size: 26px;
+    margin: 20px;
+}
+.box6 .contact {
+    background-color: #fff;
+    color: gainsboro;
+    padding: 1px;
+}

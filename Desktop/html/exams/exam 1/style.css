@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+}
+.header {
+    text-align: center;
+}
+.header h5 {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+}
+.header span {
+    font-size: 20px;
+}
+.header #black {
+    background-color: #000;
+    color: #fff;
+    padding: 2px;
+}
+.all {
+    display: flex;   
+    font-family: "Raleway", sans-serif;
+    gap: 30px;
+}
+.box {
+    width: 60%;
+    height: 600px;
+    box-shadow: 0 0 20px black;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.box img {
+    width: 100%;
+    height: 300px;
+}.box h5 {
+    font-size: 26px;
+    margin: 20px;
+    color: #000;
+}
+.box span {
+    font-size: 20px;
+    margin: 20px;
+    color: #000;
+}
+.box, .all3 .text {
+    color: #555;
+}
+.box p {
+    width: 95%;
+    margin: 20px 20px 50px 20px;
+    font-size: 18px;
+    color: #000;
+}
+.box a {
+    text-decoration: none;
+    color: #000;
+    width: 15%;
+    margin: 20px 20px 20px 20px;
+    border: 1px solid #555;
+    padding: 10px;
+    font-weight: bold;
+}
+.box a:hover {
+    background-color: gainsboro;
+}
+#text1 {
+    display: flex;
+    font-weight: bold;
+    margin-top: -40px;
+    margin-left: 700px;
+}
+#text1 #text2 {
+    background-color: #000;
+    color: #f1f1f1;
+    padding: 5px;
+}
+.box2 {
+    width: 30%;
+    margin-top: 50px;
+    height: 500px;
+}
+.box2 {
+    box-shadow: 0 0 20px black;
+}
+.box2 img {
+    width: 100%;
+    height: 300px;
+}
+.box2 h5 {
+    font-size: 26px;
+    margin: 20px;
+}
+.box2 p {
+    width: 95%;
+    margin: 20px 20px 50px 20px;
+    font-size: 18px;
+}
+.all2 {
+    width: 30%;
+    height: 420px;
+    margin-top: -50px;
+    margin-right: 40px;
+    float: right;
+    box-shadow: 0 0 20px #000;
+}
+.all2 h5 {
+    font-family: "Raleway", sans-serif;
+    background-color: gainsboro;
+    padding: 20px;
+    font-size: 20px;
+}
+.all2 img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
+.all2 .post1, .post2, .post3, .post4 {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+.all2 .post4:hover {
+    background-color: gainsboro;
+}
+
+.all2 .post3:hover {
+    background-color: gainsboro;
+}
+
+.all2 .post2:hover {
+    background-color: gainsboro;
+}
+
+.all2 .post1:hover {
+    background-color: gainsboro;
+}
+.all2  p{
+    font-size: 24px;
+    display: block;
+}
+.all2 .post1 span {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: -85px;
+}
+.all2 .post2 span {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: -78px;
+}
+.all2 .post3 span {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: -80px;
+}
+.all2 .post4 span {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: -110px;
+}
+.all3 {
+    width: 60%;
+    height: 600px;
+    box-shadow: 0 0 20px black;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.all3 img {
+    width: 100%;
+    height: 300px;
+}.all3 h5 {
+    font-size: 26px;
+    margin: 20px;
+}
+
+
+.all3 span {
+    font-size: 20px;
+    margin: 20px;
+    color: #000;
+}
+.all3 p {
+    width: 95%;
+    margin: 20px 20px 50px 20px;
+    font-size: 18px;
+    color: #000;
+}
+.all3 a {
+    text-decoration: none;
+    color: #000;
+    width: 15%;
+    margin: 20px 20px 20px 20px;
+    border: 1px solid #555;
+    padding: 10px;
+    font-weight: bold;
+}
+.all3 a:hover {
+    background-color: gainsboro;
+}
+#text1 {
+    display: flex;
+    font-weight: bold;
+    margin-top: -40px;
+    margin-left: 700px;
+}
+#text1 #text2 {
+    background-color: #000;
+    color: #f1f1f1;
+    padding: 5px;
+}
+.tags {
+    width: 30%;
+    height: 200px;
+    float: right;
+    margin-top: -225px;
+    margin-right: 35px;
+    box-shadow: 0 0 20px black;
+}
+.container {
+    padding: 10px;
+    margin-left: 20px;
+}
+.tags h5 {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    padding: 20px;
+    background-color: gainsboro;
+    display: flex;
+}
+.tags p {
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    display: inline;
+    padding: 3px;
+}
+.tags span {
+    background-color: gainsboro;
+    padding: 3px;
+    font-size: 18px;
+}
+.footer {
+    background-color: #616161;
+    width: auto;
+    margin-top: 30px;
+    height: 100px;
+    padding: 64px 32px 64px 32px;
+}
+.footer a {
+    text-decoration: none;
+}
+.footer span {
+    font-size: 20px;
+    color: #fff;
+}
+#link {
+    background-color: #555;
+    color: #999;
+    font-size: 20px;
+    padding: 15px 10px 15px 10px;
+    margin-right: 10px;
+}
+#next {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 10px 15px 10px;
+    font-size: 20px;
+}
+
+#w3 {
+    color: #fff;
+    font-size: 20px;
+    border-bottom: 1px solid #fff;
+}

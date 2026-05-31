@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    font-size: 20px;
+    align-items: center;
+}
+.header p {
+    padding: 5px 10px;
+}
+.header button {
+    padding: 5px 10px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.header button:hover {
+    background-color: #b9b9b9;
+    padding: 5px 10px;
+}
+.main {
+    display: flex;
+    gap: 40px;
+}
+.img1 {
+    height: 600px;
+    background-image: url(https://www.w3schools.com/w3images/architect.jpg);
+    background-repeat: no-repeat;
+    background-size: 98% auto;
+    background-position: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.img1 h1 {
+    align-items: center;
+    justify-self: center;
+    padding-top: 330px;
+    display: flex;    
+    gap: 10px;
+}
+.img1 p {
+    background-color: rgba(0, 0, 0, 0.699);
+    padding: 8px 16px;
+
+}
+span {
+    font-size: 24px;
+    padding: 20px;
+}
+hr {
+    width: 95%;
+    justify-self: center;
+    margin: 20px 0;
+}
+.images {
+    height: 400px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+    justify-content: space-around;
+}
+.images p {
+    color: #fff;
+    justify-self: start;
+    padding: 10px 20px;
+    background-color: #000;
+}
+.image1 {
+    width: 24%;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.w3schools.com/w3images/house5.jpg);
+}
+.image2 {
+    width: 24%;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.w3schools.com/w3images/house2.jpg);
+}
+.image3 {
+    width: 24%;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.w3schools.com/w3images/house3.jpg);
+}
+.image4 {
+    width: 24%;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.w3schools.com/w3images/house4.jpg);
+}
+.image5 {
+    width: 24%;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.w3schools.com/w3images/house5.jpg);
+}
+.image6 {
+    width: 24%;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.w3schools.com/w3images/house2.jpg);
+}
+.image7 {
+    width: 24%;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.w3schools.com/w3images/house3.jpg);
+}
+.image8 {
+    width: 24%;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.w3schools.com/w3images/house4.jpg);
+}
+.group1 {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+}
+.group2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.text1 {
+    margin-top: 100px;
+    padding: 20px;
+}
+.text1 h4 {
+    font-size: 30px;
+}
+.text1 p {
+    width: 98%;
+    font-size: 18px;
+    margin: 20px 0;
+}
+.main2 {
+    display: flex;
+    justify-content: space-around;
+}
+.block {
+    padding: 20px;
+    width: 24%;
+}
+.block img {
+    width: 100%;
+    padding: 15px 0;
+}
+.block h3 {
+    font-size: 20px;
+    padding: 10px 0;
+}
+.block .job {
+    font-size: 16px;
+    color: lightgray;
+    padding: 5px 0;
+}
+.block p {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 0 15px 0;
+}
+.block button {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 42%;
+    background-color: #a8a8a8;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.block button:hover {
+    background-color: #b9b9b9;
+}
+.box {
+    padding: 20px;
+}
+.box input {
+    display: block;
+    width: 97%;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.box button {
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    margin: 10px 0 30px 0;
+    border: none;
+    outline: none;
+}
+.box button:hover {
+    background-color: #b9b9b9;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 0 30px 0;
+}
+.section {
+    width: 97%;
+    padding: 15px 20px;
+}
+.footer {
+    display: flex;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    padding: 30px 650px;
+}
+.footer a {
+    color: #fff;
+}
+.footer a:hover {
+    color: lime;
+}

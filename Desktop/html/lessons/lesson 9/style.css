@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+}
+body{
+    background-color:#EBF0FF;
+}
+.header {
+    display: flex;
+    padding: 30px 50px;
+    justify-content: space-between;
+}
+.header img {
+    width: 100px;
+    height: 50px;
+}
+.header .text  span{
+    font-size: 18px;
+    color: #070707;
+    margin-right: 30px;
+}
+.header .text  .contact-us {
+    background-color: #F0B80D;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.main {
+    width: 90%;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.main h1 {
+    font-size: 50px;
+    width: 500px;
+}
+.main .sit {
+    color: #F0B80D;
+}
+.box {
+    width: 35%;
+}
+.inf{
+    display: flex;
+    padding: 20px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.inf1 h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.inf img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    background-color: #fff;
+}
+.inf1 p {
+    background-color: #fff;
+}
+.main .img1 {
+    width: 572.26px;
+    height: 632px;
+}
+.center {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.center .content {
+    display: flex;
+    width: 25%;
+}
+.content h2 {
+    background-color: #fff;
+    font-size: 24px;
+}
+.content img {
+    background-color: #fff;
+    width: 64px;
+    height: 64px;
+}
+.content p {
+    background-color: #fff;
+}
+#box {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#box h2 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+#box p {
+    text-align: center;
+}
+.company  {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+.company .microsoft {
+    width: 400px;
+    height: 100px;
+}
+.company .x {
+    width: 80px;
+    height: 70px;
+}
+.company .cola {
+    width: 300px;
+    height: 100px;
+}
+.star {
+    color: #ff0000;
+}
+.register {
+    display: flex;
+    width: 90%;
+    padding: 50px;
+    justify-content: space-evenly;
+    font-family: "Raleway", sans-serif;
+}
+.register img {
+    width: 45%;
+    height: 500px;
+}
+.interest { 
+    width: 35%;
+    margin: 10px;
+    background-color: #fff;
+    padding: 25px 15px;
+}
+.interest h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.interest p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.label {
+    background-color: #F9FAFF;
+    color: gray;
+    padding: 10px 15px;
+    border: 1.5px solid #DEE6FF;
+    border-radius: 10px;
+}
+.interest a {
+    background: #5380EA;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 55px;
+    border-radius: 30px;
+}
+.interest a:hover {
+    box-shadow: 0 0 10px #5380EA;
+    background-color: #fff;
+    color: #5380EA;
+}

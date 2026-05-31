@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+.main1 {
+    display: grid;
+    height: 650px;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3 ,200px);
+    justify-items: center;
+    align-items: end;
+    place-items: end center;
+    justify-content: center;
+    align-content: space-evenly;
+    place-content: space-evenly center;
+    font-size: 20px;
+    background-color: aqua;
+}

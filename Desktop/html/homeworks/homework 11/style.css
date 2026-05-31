@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: #5165a4;
+}
+fieldset {
+    background-color: #5165a4;
+    margin: 50px 100px;
+    padding: 20px;
+    width: 50%;
+    height: 460px;
+    padding: 20px 100px;
+}
+fieldset:hover {
+    box-shadow: 0 0 10px #fff;
+}
+legend {
+    font-size: 24px;
+    color: #fff;
+    margin-left: 20px;
+}
+form {
+    color: #fff;
+    font-size: 24px;
+}
+label {
+    display: inline-block;
+    width: 140px;
+    text-align: end;
+}
+input {
+    width: 30%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+select option {
+    display: inline-block;
+    
+}
+.branch select {
+    width: 20%;
+    padding: 10px;
+    margin: 10px 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.degree select {
+    width: 15%;
+    padding: 10px;
+    margin: 10px 0 15px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.degree {
+    align-items: center;
+}
+.radio {
+    width: 10%;
+    gap: 30px;
+    display: flex;
+    margin-top: -50px;
+    margin-left: 300px;
+}
+.cpi {
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 15px;
+}
+.left {
+    display: flex;
+}
+.left select {
+    margin-right: -60px;
+    margin-left: 5px;
+    width:35%;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+.left label {
+    margin-right: 30px;
+}
+.right {
+    display: flex;
+}
+.right select {
+    width: 32%;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.seasons select {
+    width: 6.5%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: -70px;
+}
+.url label {
+    width: 220px;
+    display: inline-block;
+    text-align: start;
+    margin-left: -80px;
+}
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+    gap: 10px;
+}
+.section a {
+    color: #fff;
+    text-decoration: none;
+    background-color: chartreuse;
+    padding: 5px 10px;
+    border-radius: 50px;
+}

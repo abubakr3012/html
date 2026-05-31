@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+}
+body {
+    height: 100%;
+}
+.header {
+    background-color: teal;
+    color: #fff;
+    padding: 30px;
+}
+.header h1 {
+    font-size: 30px;
+}
+.header a {
+    color: #fff;
+    text-decoration: none;
+    float: inline-end;
+    font-weight: bold;
+    font-size: 24px;
+}
+.fruit {
+    display: flex;
+}
+.fruit img {
+    width: 65%;
+    height: 600px;
+    padding: 20px;
+}
+ .text {
+    width: 28%;
+}
+.text h2 {
+    margin: 20px;
+    font-size: 30px;
+}
+.text p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.container {
+    margin: 20px 15px;
+    font-size: 30px;
+}
+.box1 {
+    width: 65%;
+    height: 220px;
+    margin-left: 20px;
+    border: 1px solid gray;
+    font-size: 20px;
+}
+.box1 h4 {
+    font-size: 24px;
+    display:inline;
+}
+.box1 .bag {
+    background-color: teal;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    gap: 200px;
+}
+.box1 .line2, .line4 {
+    background-color: gainsboro;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    gap: 200px;
+}
+.box1 .line1, .line3 {
+    padding: 10px;
+    display: flex;
+    gap: 200px;
+}
+.l

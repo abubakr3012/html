@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+table {
+    border: 1.5px solid #000;
+    margin: 100px auto;
+    width: 30%;    
+    font-size: 20px;
+}
+.white {
+    border: 1.5px solid #000;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.green {
+    background-color: green;
+    border-radius: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 25px 25px;
+    cursor: pointer;
+}
+.green:hover {
+    color: green;
+    background-color: #fff;
+    border: 2px solid green;
+}
+td {
+    text-align: center;
+    color: #fff;
+}
+input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-style: 20px;
+    margin-left: -15px;
+}

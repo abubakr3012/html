@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: "Raleway", sans-serif;
+}
+body a {
+    text-decoration: none;
+}
+.nav {
+    background-color: #E1EDE6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #376b44;
+    font-size: 18px;
+    align-items: center;
+    padding: 25px 50px;
+}
+.nav .left {
+    display: flex;
+    align-items: center;
+}
+.nav .left p {
+    font-weight: bold;
+}
+.nav .left img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+.nav .right {
+    display: flex;
+    gap: 50px;
+}
+.main1 {
+    display: flex;
+    padding: 50px 250px;
+}
+.main1 img {
+    width: 400px;
+    height: 500px;
+}
+.main1 .text h1{
+    font-size: 40px;
+    width: 80%;
+    display: block;
+    margin: 0;
+}
+.main1 .text .green {
+    display: flex;
+    color: #376b44;
+    font-size: 40px;
+}
+.main1 .text p {
+    width: 90%;
+    margin: 20px 0;
+    font-size: 18px;
+    color: #86928B;
+}
+.main1 button {
+    padding: 15px 40px;
+    background-color: #fff;
+    border: 1.5px solid #376b44;
+    color: #376b44;
+    font-size: 18px;
+}
+.main1 button:hover {
+    background-color: #376b44;
+    color: #fff;
+    animation-direction: 3s;
+}
+.main2 .links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 105px;
+}
+.main2 .links a{ 
+    text-decoration: none;
+    color: #000;
+}
+.main2 .links h1 {
+    margin-left: 110px;
+    font-weight: 100;
+}
+.main2 .links .countries {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.main2 .links .countries button {
+    background-color: #E1EDE6;
+    color: #fff;
+    padding: 10px 25px;
+    gap: 30p;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.main2 .links .countries button:hover {
+    background-color: #376b44;
+    color: #fff;
+    cursor: pointer;
+}
+.main2 .line1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 80px 30px 180px;
+    justify-content: space-around;
+    gap: 30px 0;
+}
+.main2 .line1 .image {
+    background-color: #E1EDE6;
+    padding: 15px 20px;
+}
+.main2 .line1 .image img {
+    width: 100%;
+}
+.main2 .line1 .image p {
+    padding: 10px 0;
+    color: #86928B;
+    font-size: 18px;
+}
+.main2 .line1 .image h4 {
+    font-size: 24px;
+    padding: 5px 0 10px 0;
+    font-weight: 100;
+}
+.main2 .line1 .image span {
+    font-size: 18px;
+}
+.main2 .line1 .image .price {
+    color: #376b44;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+.main2 .line1 .image button {
+    color: #376b44;
+    background-color: #E1EDE6;
+    border: 1.5px solid #376b44;
+    font-size: 18px;
+    padding: 15px 120px;
+}
+.main2 .line1 .image button:hover {
+    background-color: #376b44;
+    color: #E1EDE6;
+}
+.main3 {
+    background-image: url(./pic_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin: 100px 0;
+    padding: 50px 100px;
+    color: #E1EDE6;
+}
+.main3 .star {
+    display: flex;
+    align-items: center;
+    padding: 0 0 20px 0;
+}
+.main3 .star img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px 0 0;
+}
+.main3 .star h2 {
+    width: 20%;
+}
+.main3 .texts {
+    width: 35%;
+}
+.main3 button {
+    background-color: #EEDB6D;
+    padding: 15px 35px;
+    margin: 40px 0;
+}
+.main4 {
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+}
+.main4 h2 {
+    font-weight: 200;
+    font-size: 30px;
+    padding: 30px 0;
+}
+.main4 .pens {
+    width: 65%;
+    height: 450px;
+    padding: 20px;
+}
+.main4 .block p {
+    width: 66%;
+    padding: 10px 0;
+    font-size: 18px;
+}
+.main4 .block .photos {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+.footer {
+    background-color: #E1EDE6;
+    padding: 20px 50px;
+    display: flex;
+}
+.footer .left {
+    align-items: center;
+    display: flex;
+    width: 20%;
+}
+.footer .left img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+.footer .left p {
+    font-size: 24px;
+    color: #376b44;
+    font-weight: bold;
+}
+.footer .phone {
+    padding: 10px 60px;
+    display: block;
+}
+.footer .phone p {
+    margin: 10px 0;
+    color: #86928B;
+    font-size: 18px;
+}
+.box {
+    padding: 0 100px;
+    display: block;
+}
+.box .text {
+    font-size: 18px;
+    color: #86928B;
+    margin: 10px 0;
+}
+.box .text1 {
+    font-size: 19px;
+}
+.footer .soc {
+    width: 30%;
+}
+.footer .soc .images {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    gap: 25px;
+    border-radius: 10px;
+    margin: 0 0 10px 0;
+}
+.footer .soc p {
+    display: block;
+    color: #86928B;
+    font-size: 14px;
+    margin: 10px 0;
+}

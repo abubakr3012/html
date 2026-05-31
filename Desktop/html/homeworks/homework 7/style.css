@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+}
+.header {
+    background-color: #000;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    justify-content: center;
+    padding: 100px;
+    text-align: center;
+}
+.header h4 {
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+.header h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.header a {
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    background-color: gray;
+    color: #fff;
+    padding: 20px 25px;
+    font-weight: bold;
+}
+.header a:hover {
+    background-color: #fff;
+    color: #000;
+}
+.all {
+    display: flex;
+    margin: 30px;
+    gap: 30px;
+}
+.box {
+    width: 33%;
+    box-shadow: 0 0 10px gray;
+    padding: 30px;
+    text-align: center;
+}
+.box h1 {
+    font-size: 30px;
+}
+.box img {
+    width: 160px;
+    height: 150px; 
+    padding: 20px;
+}
+.box p {
+    padding: 10px;
+    font-size: 20px;
+}
+.all2 {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.color {
+    width: 15%;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 20px;
+}
+.color1 {
+    background-color: #ff0000;
+}
+.color2 {
+    background-color: #2196F3;
+}
+.color3 {
+    background-color: #607d8b;
+}
+.color4 {
+    background-color: Teal;
+}
+.color5 {
+    background-color: #ffff00;
+}
+.color6 {
+    background-color: orange;
+}
+.text {
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+.text2 {
+    text-align: center;
+    font-size: 24px;
+}
+.basket {
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    color: #fff;
+}
+.basket p {
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+.basket1 {
+    background-color: #2196F3;
+    width: 50%;
+    border: 2px solid gray;
+    border-right: 0;
+    padding: 5px 10px;
+}
+.basket2 {
+    background-color: #4CAF50;
+    width: 35%;
+    border: 2px solid gray;
+    border-right: 0;
+    padding: 5px 10px;
+}
+.basket3 {
+    background-color: #ff0000;
+    width: 30%;
+    border: 2px solid gray;
+    border-right: 0;
+    padding: 5px 10px;
+}
+.text3 {
+    margin-left: 20px;
+}
+.get {
+    display: flex;
+}
+.get span {
+    color: #000;
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid gray;
+    width: 43%;
+}

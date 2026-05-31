@@ -1,0 +1,234 @@
+# index.html
+
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoftClub</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #091221;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: rgba(255,255,255,0.05);
+            backdrop-filter: blur(10px);
+        }
+
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            font-weight: bold;
+        }
+
+        .hero p {
+            color: #cfcfcf;
+            font-size: 18px;
+        }
+
+        .btn-custom {
+            background-color: white;
+            color: #091221;
+            border-radius: 30px;
+            padding: 12px 28px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn-custom:hover {
+            background-color: transparent;
+            border: 2px solid white;
+            color: white;
+        }
+
+        .card-custom {
+            background-color: #111c31;
+            border: none;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+
+        .card-custom:hover {
+            transform: translateY(-10px);
+        }
+
+        footer {
+            background-color: #060d18;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-3">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">SoftClub</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Главная</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Услуги</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">О нас</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+                    <h1>Создавай сайты нового поколения</h1>
+                    <p class="mt-4">
+                        Современный дизайн, Bootstrap, адаптивность и высокая скорость.
+                    </p>
+
+                    <button class="btn btn-custom mt-3">
+                        Начать
+                    </button>
+                </div>
+
+                <div class="col-lg-6 text-center mt-5 mt-lg-0">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png"
+                         class="img-fluid"
+                         width="400">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services -->
+    <section id="services" class="py-5">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Наши услуги</h2>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="card card-custom p-4 text-center h-100">
+                        <h3>Frontend</h3>
+                        <p class="mt-3 text-light">
+                            HTML, CSS, Bootstrap и JavaScript.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-custom p-4 text-center h-100">
+                        <h3>Backend</h3>
+                        <p class="mt-3 text-light">
+                            Django, Python и базы данных.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-custom p-4 text-center h-100">
+                        <h3>UI/UX</h3>
+                        <p class="mt-3 text-light">
+                            Красивые и удобные интерфейсы.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold">О нас</h2>
+            <p class="mt-4 text-light">
+                SoftClub — современная веб-студия для создания сайтов, приложений и дизайна.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="py-5">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Связаться с нами</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+
+                    <form>
+                        <input type="text" class="form-control mb-3" placeholder="Ваше имя">
+
+                        <input type="email" class="form-control mb-3" placeholder="Email">
+
+                        <textarea class="form-control mb-3" rows="5" placeholder="Сообщение"></textarea>
+
+                        <button class="btn btn-custom w-100">
+                            Отправить
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p class="mb-0">© 2026 SoftClub. Все права защищены.</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+```
+
+# Как запустить
+
+1. Создай файл `index.html`
+2. Вставь код
+3. Открой файл в браузере

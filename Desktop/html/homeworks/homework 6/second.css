@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+}
+.header {
+    background-color: teal;
+    color: #fff;
+    padding: 30px;
+}
+.header h1 {
+    font-size: 30px;
+}
+.header a {
+    color: #fff;
+    text-decoration: none;
+    float: inline-start;
+    font-weight: bold;
+    font-size: 24px;
+}
+.fruit {
+    display: flex;
+}
+.fruit img {
+    width: 65%;
+    height: 600px;
+    padding: 20px;
+}
+ .text {
+    width: 28%;
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: justify;
+}
+.text p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.text h2 {
+    margin: 20px;
+    font-size: 30px;
+}
+.container {
+    width: 65%;    
+    margin-left: 20px;
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+h2 {
+    margin: 20px;
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+}
+.line1 {
+    background-color: teal;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+    display: flex;
+    gap: 200px;
+}
+.box1 {
+    display: flex;
+    padding: 10px;
+    font-size: 24px;
+    gap: 200px;
+}
+.box2 {
+    background-color: gainsboro;
+    display: flex;
+    padding: 10px;
+    font-size: 24px;
+    gap: 200px;
+}
+/* .container2 {
+    width: 65%;    
+    margin-left: 20px;
+    border: 1px solid gray;
+    margin-top: 20px;
+} */

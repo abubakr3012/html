@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+.nav {
+    width: 93.4%;
+    padding: 20px 50px;
+    color: #fff;
+    background-color: teal;
+    position: fixed;
+    margin-bottom: 50px;
+    z-index: 3;
+}
+.all {
+    width: 93%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 50px;
+    gap: 20px;
+}
+.all .block {
+    width: 28%;
+    box-shadow: 0 0 20px gray;
+}
+.all .block img {
+    width: 100%;
+}
+.all .block p {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+@media (max-width: 500px) {
+    .nav {
+        width: 58.5%;
+        text-align: left;
+    }
+    .all {
+        flex-wrap: wrap;
+        width: 55%;
+        flex-direction: column;
+    }
+    .all .block {
+        width: 100%;
+    }
+    .all .block1 {
+        margin-top: 30px;
+    }
+}

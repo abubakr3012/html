@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+.nav {
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: fixed;
+    width: 98%;
+    align-items: center;
+    z-index: 5;
+}
+.nav h1 {
+    font-size: 34px;
+    display: flex;
+    color: #292F3A;
+}
+.nav p {
+    color: #569C27;
+}
+.nav .left {
+    display: flex;
+    align-items: center;
+}
+.nav .left img {
+    width: 50px;
+    height: 50px;
+}
+.nav .right button {
+    color: #292F3A;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.nav .right button:hover {
+    background-color: #292F3A;
+    color: #EFEFEF;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.main1 {
+    background-color: #292F3A;
+    width: 100%;
+    height: 650px;
+    display: flex;
+}
+.main1 .left-bar h2 {
+    display: block;
+    color: #EFEFEF;
+    width: 90%;
+    font-size: 40px;
+    padding: 150px 0 30px 50px;
+}
+.main1 .left-bar p {
+    font-size: 20px;
+    color: #EFEFEF;
+    width: 60%;
+    padding: 10px 50px;
+}
+.main1 .left-bar button {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 20px 50px;
+    color: #EFEFEF;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #569C27;
+}
+.main1 .left-bar button img {
+    animation-name: simple;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+@keyframes simple {
+    0% {
+        width: auto;
+        height: auto;
+        opacity: 0;
+        margin-left: -20px;
+        animation-duration: 3s;
+        animation-delay: 1s;
+    }
+    25% {
+        width: auto;
+        height: auto;
+        opacity: 0.5;
+        margin-left: 0;
+        animation-duration: 3s;
+        animation-delay: 1s;
+    }
+    50% {
+        opacity: 1;
+        width: 0;
+        height: 0;
+        margin-left: 20px;
+        animation-duration: 3s;
+        animation-delay: 1s;
+    }
+
+
+}
+.right-bar .top {
+    display: flex;
+    padding: 50px 10px 0 0;
+}
+.right-bar .top .block img {
+    width: 40px;
+    height: 50px;
+    display: block;
+    margin: 0 0 10px 20px;
+}
+.right-bar .top .block{
+    background-color: #EFEFEF;
+    width: 80px;
+    height: 80px;
+    padding: 15px 15px;
+    font-size: 12px;
+    margin: 100px 50px;
+    border-radius: 15px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.right-bar .top .block2 {
+    position: relative;
+    top: -30px;
+}
+
+
+.right-bar .middle {
+    display: flex;
+    padding: 50px 10px 0 0;
+}
+.right-bar .middle .section img {
+    width: 40px;
+    height: 50px;
+    display: block;
+    margin: 0 0 10px 20px;
+}
+.right-bar .middle .section {
+    background-color: #EFEFEF;
+    width: 80px;
+    height: 80px;
+    padding: 15px 15px;
+    font-size: 12px;
+    margin: 100px 50px;
+    border-radius: 15px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.right-bar .middle .section {
+    margin-top: -100px;
+}
+.right-bar .middle .section1 {
+    right: 50px;
+    position: relative;
+}
+.right-bar .middle .section3 {
+    position: relative;
+    left: 50px;
+}
+.right-bar .middle .section2 {
+    padding: 25px 25px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+.right-bar .middle .section2 img {
+    width: 100px;
+    height: 100px;
+    margin: 20px 10px;
+}
+
+
+
+.right-bar .bottom {
+    display: flex;
+    padding: 50px 10px 0 0;
+    justify-content: space-around;
+}
+.right-bar .bottom .box img {
+    width: 40px;
+    height: 50px;
+    display: block;
+    margin: 0 0 10px 20px;
+}
+.right-bar .bottom .box{
+    background-color: #EFEFEF;
+    width: 80px;
+    height: 80px;
+    padding: 15px 15px;
+    font-size: 12px;
+    border-radius: 15px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.right-bar .bottom .box {
+    position: relative;
+    top: -80px;
+}
+.right-bar .bottom .box1 {
+    top: -120px;
+}
+.main2 .input-box{
+    background-color: #EFEFEF;
+    width: 80%;
+    height: 68vh;
+    display: flex;
+    border-radius: 30px;
+    margin-left: 150px;
+}
+.main2 .texts {
+    color: #292F3A;
+    width: 40%;
+    padding: 50px 150px;
+}
+.main2 .texts h1 {
+    font-size: 34px;
+    padding: 10px 0;
+}
+.main2 .texts p {
+    font-size: 18px;
+    font-family: "Poppins";
+}
+.main2 .input-box .black {
+    width: 400px;
+    height: 100%;
+    background-color: #000;
+    border-radius: 30px 0 0 30px;
+}
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+label {
+    font-size: 18px;
+    color: #292F3A;
+}
+.main2 .inputs {
+    padding: 30px 50px;
+    display: block;
+}
+.main2 .title {
+    display: flex;
+    gap: 30px;
+}
+.main2 .second {
+    margin-left: 70px;
+}
+textarea {
+    width: 100%;
+    padding: 30px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    text-align: start;
+}
+
+.main2 .inputs button {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 20px 0;
+    color: #EFEFEF;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #569C27;
+    gap: 10px;
+}
+.main1 .inputs button img {
+    animation-name: simple;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: 3;
+}
+.footer {
+    width: 93.4%;
+    height: 300px;
+    background-color: #292F3A;
+    margin: 50px 0 0 0;
+    padding: 50px;
+}
+.footer .images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .images .content1 {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+.footer .images .content2 img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+hr {
+    width: 93%;
+    margin-left: 50px;
+}
+.inf {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+.inf p {
+    font-size: 20px;
+    padding: 5px 0;
+}
+.inf .header {
+    font-size: 22px;
+    font-family: "Poppins";
+    padding: 15px 0;
+}
+.inf1 .office {
+    color: lightgray;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 0 0;
+    font-size: 20px;
+    color: #fff;
+}
+.links .container {
+    display: flex;
+    gap: 30px;
+}
